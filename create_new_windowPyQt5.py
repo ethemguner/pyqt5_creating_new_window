@@ -1,7 +1,6 @@
 from PyQt5 import QtWidgets, QtCore
 import sys
 
-## developer & designer : ethemguener@gmail.com
 
 class Window(QtWidgets.QWidget):
     def __init__(self):
