@@ -48,6 +48,12 @@ class Window2(QtWidgets.QWidget):
         self.window2_variable = QtWidgets.QLabel()
         self.window2_variable.setText("The variable value which came from main window: " + str(variable_from_MainWindow))
         
+        self.left = 200
+        self.top = 120
+        self.width = 500
+        self.height = 500
+        self.setGeometry(self.left, self.top, self.width, self.height)
+        
         vbox = QtWidgets.QVBoxLayout()
         vbox.addWidget(self.window2_label)
         vbox.addWidget(self.window2_variable)
