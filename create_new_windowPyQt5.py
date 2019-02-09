@@ -12,6 +12,7 @@ class Window(QtWidgets.QWidget):
         
         self.label = QtWidgets.QLabel("Main Window")
         self.pushbutton = QtWidgets.QPushButton("Go Window 2")
+        
         self.a_variable = 268
         self.variable_label = QtWidgets.QLabel("Main window variable value: " + str(self.a_variable))
         
